@@ -12,32 +12,37 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC3 extends Base {
-	
-	
+public class TC4 extends Base {
+
 	@Test
 	public void Login() throws InterruptedException
 	{
-		 login l=new login(driver, pr);
-   	     l.signin("andrew.sin6656@gmail.com", "8285480458");
-   	     VideoPlay video=new VideoPlay(driver, pr);
-   	     video.Video_play();
-   	     
+		login l=new login(driver, pr);
 	
+    	l.signin("andrew.sin6656@gmail.com", "8285480458");
+    	VideoPlay video=new VideoPlay(driver, pr);
+    	video.Video_play();
+    	 
 		
-		Thread.sleep(3000);
 		WebElement like=driver.findElement(By.xpath(pr.getProperty("Like_button")));
 		like.click();
+		WebElement subscribe = driver.findElement(By.xpath(pr.getProperty("Subscribe")));
+		subscribe.click();
+		
 		
 		
 		
 		
 	}
 
-	/*@AfterMethod
+    /*@AfterMethod
 	public void Window_close() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		driver.close();
 	}*/
+
+	
+	
+
 }

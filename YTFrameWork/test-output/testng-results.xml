@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89061" started-at="2019-03-10T12:22:12Z" finished-at="2019-03-10T12:23:41Z">
+  <suite name="Default suite" duration-ms="97781" started-at="2019-03-12T17:47:27Z" finished-at="2019-03-12T17:49:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89061" started-at="2019-03-10T12:22:12Z" finished-at="2019-03-10T12:23:41Z">
-      <class name="org.testing.TestScript.TC3">
-        <test-method status="PASS" signature="URL()[pri:0, instance:org.testing.TestScript.TC3@50c87b21]" name="URL" is-config="true" duration-ms="31713" started-at="2019-03-10T17:52:12Z" finished-at="2019-03-10T17:52:44Z">
+    <test name="Default test" duration-ms="97781" started-at="2019-03-12T17:47:27Z" finished-at="2019-03-12T17:49:04Z">
+      <class name="org.testing.TestScript.TC4">
+        <test-method status="PASS" signature="URL()[pri:0, instance:org.testing.TestScript.TC4@50c87b21]" name="URL" is-config="true" duration-ms="40738" started-at="2019-03-12T23:17:27Z" finished-at="2019-03-12T23:18:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- URL -->
-        <test-method status="FAIL" signature="Login()[pri:0, instance:org.testing.TestScript.TC3@50c87b21]" name="Login" duration-ms="57296" started-at="2019-03-10T17:52:44Z" finished-at="2019-03-10T17:53:41Z">
+        <test-method status="FAIL" signature="Login()[pri:0, instance:org.testing.TestScript.TC4@50c87b21]" name="Login" duration-ms="56965" started-at="2019-03-12T23:18:07Z" finished-at="2019-03-12T23:19:04Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@aria-label,'like this video along with 28')]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//yt-formatted-string[text()='Subscribe']"}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'HP', ip: '192.168.43.49', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+System info: host: 'HP', ip: '192.168.43.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Salman\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 60f0b8bd745cf6c7fd4e1a62bb4a8e10
-*** Element info: {Using=xpath, value=//button[contains(@aria-label,'like this video along with 28')]}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Salman\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:8302}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f9e592676b745c63aee98d817ff5124d
+*** Element info: {Using=xpath, value=//yt-formatted-string[text()='Subscribe']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@aria-label,'like this video along with 28')]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//yt-formatted-string[text()='Subscribe']"}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'HP', ip: '192.168.43.49', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+System info: host: 'HP', ip: '192.168.43.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Salman\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 60f0b8bd745cf6c7fd4e1a62bb4a8e10
-*** Element info: {Using=xpath, value=//button[contains(@aria-label,'like this video along with 28')]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Salman\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:8302}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f9e592676b745c63aee98d817ff5124d
+*** Element info: {Using=xpath, value=//yt-formatted-string[text()='Subscribe']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -54,7 +54,7 @@ Session ID: 60f0b8bd745cf6c7fd4e1a62bb4a8e10
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.testing.TestScript.TC3.Login(TC3.java:43)
+	at org.testing.TestScript.TC4.Login(TC4.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,7 +86,7 @@ Session ID: 60f0b8bd745cf6c7fd4e1a62bb4a8e10
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-      </class> <!-- org.testing.TestScript.TC3 -->
+      </class> <!-- org.testing.TestScript.TC4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
